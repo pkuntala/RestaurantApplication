@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RestaurantApp
 //
-//  Created by Murukuri Tejasvi Sri Kanaka Lakshmi  on 14/10/21.
+//  Created by Preetika Kuntala  on 14/10/21.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  RestaurantApp
 //
-//  Created by Murukuri Tejasvi Sri Kanaka Lakshmi  on 14/10/21.
+//  Created by Preetika Kuntala  on 14/10/21.
 //
 
 import UIKit
@@ -14,6 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let backButtonImg = UIImage(named: "back")
+        UINavigationBar.appearance().backIndicatorImage = backButtonImg
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = backButtonImg
         return true
     }
 
